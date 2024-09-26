@@ -10,5 +10,5 @@ WORKDIR /app
 COPY . ./app/
 
 # run python file code
-CMD python ./app/my_code.py
-# ENTRYPOINT ["python", "./app/my_code.py"]
+# CMD python ./app/my_code.py
+ENTRYPOINT ["python", "./app/my_code.py"]
